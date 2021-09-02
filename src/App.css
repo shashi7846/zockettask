@@ -1,6 +1,7 @@
 .App {
-  text-align: center;
+  background-color: brown;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +37,10 @@
     transform: rotate(360deg);
   }
 }
+.input-group-prepend span{
+  width: 50px;
+  background-color: black;
+  color: black;
+  border:0 !important;
+  }
+  

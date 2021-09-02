@@ -1,0 +1,41 @@
+.Header_main{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+
+}
+.header_title{
+    color:white;
+    text-align: center;
+    
+}
+
+.header_icons{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.navIcon{
+    color: white;
+    padding-left: 15px
+}
+.panIcon{
+    color: white;
+    padding-left: 5px;
+}
+.chatIcon{
+    color: white;
+    padding-left: 10px;
+}
+
+.NavEndicons{
+    color: white;
+    display: flex;
+}
+.profileIcon{
+    padding-right: 50px;
+}
+.shareicon{
+    padding-right: 20px;
+}
