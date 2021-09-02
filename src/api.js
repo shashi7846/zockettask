@@ -3,10 +3,10 @@ import axios from "axios";
 
 
 export function PostLogin(data){
-    return axios.post(`http://localhost:5000/student`,data);
+    return axios.post(`https://zocket-task.herokuapp.com/student`,data);
 }
 
 export function GetuserbyEmail(id){
-    return axios.get(`http://localhost:5000/users/${id}`);
+    return axios.get(`https://zocket-task.herokuapp.com/users/${id}`);
 }
 
